@@ -1,0 +1,125 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+}
+
+/* Nav Bar */
+
+.company {
+  display: flex;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+
+}
+
+.company .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+
+}
+
+.company img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+nav span {
+  display: flex;
+  padding: 0 2rem;
+}
+
+/* Main Banner */
+
+.main-banner {
+  background-image: url("/Users/alanyoung/Documents/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+
+
+
+
+}
+
+.main-banner .headline {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headline {
+
+  font-size: 2rem;
+  background-color: white;
+  color: black;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  width: 25rem;
+  position: relative;
+  top: 10rem;
+}
+
+/* Products and Business */
+
+.product {
+  height: 8rem;
+  width: 5rem;
+  padding: 3rem 6rem;
+  margin: 3rem 0;
+  display: inline-flex;
+  align-items: center;
+
+}
+
+.product-image img {
+  max-width: 5rem;
+  max-height: 4.5rem;
+}
+
+/* Business Info */
+
+.business-info {
+
+  display: inline-flex;
+}
+
+.info {
+  width: 35%;
+  padding: 1rem 5% 0 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1rem;
+  border-style: solid;
+  border-radius: 1.25rem;
+}
+
+p .narrative {
+  padding-top: 1rem;
+}
