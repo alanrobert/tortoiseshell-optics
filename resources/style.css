@@ -56,15 +56,11 @@ nav span {
 /* Main Banner */
 
 .main-banner {
-  background-image: url("/Users/alanyoung/Documents/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-image: url("../resources/images/glasses-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
-
-
-
-
 }
 
 .main-banner .headline {
@@ -103,23 +99,29 @@ nav span {
 
 /* Business Info */
 
-.business-info {
 
-  display: inline-flex;
-}
-
-.info {
-  width: 35%;
+.info  {
+  width: 45%;
   padding: 1rem 5% 0 0;
+  display: inline-flex;
+
 }
 
 .title {
   font-weight: bold;
   font-size: 1rem;
   border-style: solid;
-  border-radius: 1.25rem;
+  border-radius: 3rem;
+  border-color: cadetblue;
 }
 
-p .narrative {
-  padding-top: 1rem;
+/* Footer */
+
+.footer .container {
+  padding: 4rem;
+}
+
+footer {
+  padding-left: 4rem;
+  border-top: 4px;
 }
